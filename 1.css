@@ -1,0 +1,170 @@
+html, body {
+	height: 100%;
+}
+
+@font-face {
+	font-family: "Minecraft";
+	src: url(impact.ttf);
+}
+
+body {
+	font-family: "Minecraft";
+	font-family: 16px;
+}
+
+header {
+	box-shadow: 0 0 15px 2px #202020
+}
+
+.logo, .phone, .search {
+	float: left;
+	width: 33%;
+}
+
+.phone p {
+	color: #fff;
+	font-size: 25px;
+	margin-top: 40px;
+}
+
+.search form {
+	margin-top: 35px;
+}
+
+.topHeader {
+	background-color: blue;
+	overflow: hidden;
+}
+
+nav {
+	width: 100%;
+}
+
+#menu ul {
+	padding-top: 0;
+	margin: 0;
+}
+
+#menu ul li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+
+#menu ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	padding: 0 10px;
+	line-height: 40px;
+}
+
+.submenu {
+	top: 40px;
+	position: absolute;
+	display: none;
+	background-color: blue;
+	padding: 0;
+	border: 1px solid green;
+}
+
+.submenu li {
+	min-width: 170px;
+}
+
+#menu ul li:hover .submenu {
+	display: block;
+}
+
+.submenu li:hover {
+	background-color: black;
+
+}
+
+.text-center {
+	text-align: center;
+}
+
+footer {
+	background-color: green;
+	height: 100px;
+}
+
+#content {
+	min-height: 100%;
+	display: flex;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+			width: 20px;
+		}
+
+		::-webkit-scrollbar-track {
+			background: #dddddd
+		}
+
+		::-webkit-scrollbar-thumb {
+			background: green;
+		}
+
+
+.search_block form {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+input.search {
+  width: calc(100% - 54px);
+  height: auto;
+  background-color: #c1c1c1;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: 0;
+  padding-left: 15px;
+}
+input.submit {
+  background: url("https://img.icons8.com/ffffff/search") center center/50% auto
+    no-repeat #4b9e40;
+  border: 0;
+  width: 54px;
+  height: auto;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.main-news {
+  border:1px  solid #e1e0e7;
+  border-top:3px  solid #ce3037;
+  width:700px;
+font-family:sans-serif;
+}
+.title {
+  background:#eae9da;
+  text-transform:uppercase;
+  font-weight:bold;
+  padding:15px;}
+.news {
+  padding:10px;
+  border-bottom:1px solid #e1e0e7;
+  margin:10px;
+font-size:2em;
+}
+/* Чтобы убрать в последнем элементе бордбр */
+.news:last-child {
+  border-bottom:none;
+}
+time {
+  font-size:0.8em;
+  color:red;
+
+}
+a {
+  color:black;
+  text-decoration:none;}
+a:hover {
+  color:red;
+}
